@@ -3,8 +3,6 @@
 
 Azure Synapse Analytics is a limitless analytics service that brings together data integration, enterprise data warehousing, and big data analytics. 
 
-Here's what you can do when you run Azure Virtual Desktop on Azure:
-
 It gives you the freedom to query data on your terms, using either serverless or dedicated resourcesâ€”at scale. Azure Synapse brings these worlds together with a unified experience to ingest, explore, prepare, manage, and serve data for immediate BI and machine learning needs..
 
 # Synapse deployment on Azure Private Endpoints 
@@ -20,6 +18,7 @@ Synapse uses a managed VNET / Subnet and exposes private endpoints in customersâ
 - Data Engineers
 - Data Architect
 - ![alt image](https://github.com/kamaddal/Managed-Synapse_deployment/blob/main/azure-synapse-detailed-diagram.png?raw=true)
+- ![alt image](https://github.com/kamaddal/Managed-Synapse_deployment/blob/main/synapse-workspace.png?raw=true)
 
 # Product/Managed Endpoint Synapase architecture
 
@@ -62,7 +61,7 @@ Using the search bar on top type Templates
 
 - Fill out the blanks with your details and click purchase
 
-![alt image](https://github.com/DavidArayaSanabria/AVDLandingZone/blob/8bd3fb167da7f7c76eb01954d73f1ce6948a9a41/Fill%20out%20the%20details%20and%20purchase.png?raw=true)
+![alt image](https://github.com/kamaddal/Managed-Synapse_deployment/blob/main/purchase.PNG?raw=true)
 
 - Allow 30 minutes for the deployment to complete
 - Peer your Hub and Spoke Virtual Networks as needed
