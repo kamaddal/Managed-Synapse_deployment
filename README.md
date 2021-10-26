@@ -1,16 +1,11 @@
 
 # Azure Synapse on Managed Vnet
 
-Azure Virtual Desktop is a desktop and app virtualization service that runs on the cloud.
+Azure Synapse Analytics is a limitless analytics service that brings together data integration, enterprise data warehousing, and big data analytics. 
 
 Here's what you can do when you run Azure Virtual Desktop on Azure:
 
-Set up a multi-session Windows 10 and 11 deployment that delivers a full Windows 10 and 11 with scalability
-Virtualize Microsoft 365 Apps for enterprise and optimize it to run in multi-user virtual scenarios
-Provide Windows 7 virtual desktops with free Extended Security Updates
-Bring your existing Remote Desktop Services (RDS) and Windows Server desktops and apps to any computer
-Virtualize both desktops and apps
-Manage Windows 10 and 11, Windows Server, and Windows 7 desktops and apps with a unified management experience
+It gives you the freedom to query data on your terms, using either serverless or dedicated resources—at scale. Azure Synapse brings these worlds together with a unified experience to ingest, explore, prepare, manage, and serve data for immediate BI and machine learning needs..
 
 # Azure Manages Vnet Synapse deployments 
 
@@ -32,8 +27,8 @@ example!!!
 
 - Deploy a Azure Vnet or use vnet from existing handing zone.
 - Deploy Azure Synapase studio.
-- Create .
-- A Network Security Group with the necessary outbound rules for Azure Virtual Desktop Hostpools to properly activate and work.
+- Create SQL Pools & Spark Pools .
+- Create a Privatelink and assign & Plumb the Synapse services to Azure Vnet.
 
 
 
@@ -45,27 +40,27 @@ example!!!
 
 Using the search bar on top type Templates
 
-![alt image](image URI)
+![alt image](https://github.com/DavidArayaSanabria/AVDLandingZone/blob/0c27bbe224b6c1e408883e4fd22b992d503549fd/Search.png?raw=true)
 
 - Create a new template
 
-![alt image](image URI)
+![alt image](https://github.com/DavidArayaSanabria/AVDLandingZone/blob/8bd3fb167da7f7c76eb01954d73f1ce6948a9a41/create.png?raw=true)
 
 - Give a name and a description to the template
 
-![alt image](image URI)
+![alt image](https://github.com/DavidArayaSanabria/AVDLandingZone/blob/8bd3fb167da7f7c76eb01954d73f1ce6948a9a41/Name%20and%20Description.png?raw=true)
 
 - Add for modified [Template.json](Template.json) and save it
 
-![alt image](image URI)
+![alt image](https://github.com/DavidArayaSanabria/AVDLandingZone/blob/8bd3fb167da7f7c76eb01954d73f1ce6948a9a41/add%20code.png?raw=true)
 
 - Select the newly added template and click deploy
 
-![alt image](image URI)
+![alt image](https://github.com/DavidArayaSanabria/AVDLandingZone/blob/8bd3fb167da7f7c76eb01954d73f1ce6948a9a41/Select%20and%20deploy%20template.png?raw=true)
 
 - Fill out the blanks with your details and click purchase
 
-![alt image](image URI)
+![alt image](https://github.com/DavidArayaSanabria/AVDLandingZone/blob/8bd3fb167da7f7c76eb01954d73f1ce6948a9a41/Fill%20out%20the%20details%20and%20purchase.png?raw=true)
 
 - Allow 30 minutes for the deployment to complete
 - Peer your Hub and Spoke Virtual Networks as needed
