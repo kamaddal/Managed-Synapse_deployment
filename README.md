@@ -54,7 +54,7 @@ Using the search bar on top type Templates
 
 - Add for modified [Template.json](Template.json) and save it
 
-![alt image](https://github.com/DavidArayaSanabria/AVDLandingZone/blob/8bd3fb167da7f7c76eb01954d73f1ce6948a9a41/add%20code.png?raw=true)
+![alt image](https://github.com/kamaddal/Managed-Synapse_deployment/blob/main/template_code.PNG?raw=true)
 
 - Select the newly added template and click deploy
 
