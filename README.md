@@ -1,4 +1,4 @@
-# Managed-Synapse_deployment
+
 # Azure Synapse on Managed Vnet
 
 Azure Virtual Desktop is a desktop and app virtualization service that runs on the cloud.
@@ -22,6 +22,7 @@ Azure landing zones are the output of a multisubscription Azure environment that
 - Infrastructure Architect
 - Data Engineers
 - Data Architect
+- ![alt image](https://github.com/kamaddal/Managed-Synapse_deployment/blob/main/azure-synapse-detailed-diagram.png?raw=true)
 
 # Product/Managed Endpoint Synapase architecture
 
