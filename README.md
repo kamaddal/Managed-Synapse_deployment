@@ -17,8 +17,12 @@ Synapse uses a managed VNET / Subnet and exposes private endpoints in customersâ
 - Infrastructure Architect
 - Data Engineers
 - Data Architect
-- ![alt image](https://github.com/kamaddal/Managed-Synapse_deployment/blob/main/azure-synapse-detailed-diagram.png?raw=true)
-- ![alt image](https://github.com/kamaddal/Managed-Synapse_deployment/blob/main/synapse-workspace.png?raw=true)
+
+# Synapase Architecture deployed on Private Endpoints
+![alt image](https://github.com/kamaddal/Managed-Synapse_deployment/blob/main/azure-synapse-detailed-diagram.png?raw=true)
+
+# Synapase Workspace
+![alt image](https://github.com/kamaddal/Managed-Synapse_deployment/blob/main/synapse-workspace.png?raw=true)
 
 # Product/Managed Endpoint Synapase architecture
 
@@ -79,7 +83,6 @@ example!!
 - https://docs.microsoft.com/en-us/azure/synapse-analytics/security/how-to-create-managed-private-endpoints
 - https://docs.microsoft.com/en-us/azure/virtual-network/tutorial-connect-virtual-networks-portal#peer-virtual-networks
 - https://docs.microsoft.com/en-us/azure/virtual-desktop/safe-url-list#virtual-machines
-- https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/
 
 
 
