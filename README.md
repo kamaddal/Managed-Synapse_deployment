@@ -1,5 +1,5 @@
 
-# Azure Synapse on Managed Vnet
+# Azure Synapse on Private Endpoints
 
 Azure Synapse Analytics is a limitless analytics service that brings together data integration, enterprise data warehousing, and big data analytics. 
 
@@ -7,9 +7,11 @@ Here's what you can do when you run Azure Virtual Desktop on Azure:
 
 It gives you the freedom to query data on your terms, using either serverless or dedicated resources—at scale. Azure Synapse brings these worlds together with a unified experience to ingest, explore, prepare, manage, and serve data for immediate BI and machine learning needs..
 
-# Azure Manages Vnet Synapse deployments 
+# Synapse deployment on Azure Private Endpoints 
 
-Azure landing zones are the output of a multisubscription Azure environment that accounts for scale, security governance, networking, and identity. Azure landing zones enable application migration, modernization, and innovation at enterprise-scale in Azure. These zones consider all platform resources that are required to support the customer's application portfolio and don't differentiate between infrastructure as a service or platform as a service.
+Azure Private Endpoint is a network interface that connects you privately and securely to a service powered by Azure Private Link. Private Endpoint uses a private IP address from your VNet, effectively bringing the service into your VNet. 
+
+Synapse uses a managed VNET / Subnet and exposes private endpoints in customers’ vnets as needed. Since the VNETs belong to Microsoft and are managed, The VNETs are isolated therefore we require private endpoints for PaaS services in Azure.
 
 
 ## Target audience
@@ -48,7 +50,7 @@ Using the search bar on top type Templates
 
 - Give a name and a description to the template
 
-![alt image](https://github.com/DavidArayaSanabria/AVDLandingZone/blob/8bd3fb167da7f7c76eb01954d73f1ce6948a9a41/Name%20and%20Description.png?raw=true)
+![alt image](https://github.com/kamaddal/Managed-Synapse_deployment/blob/main/Description.PNG?raw=true)
 
 - Add for modified [Template.json](Template.json) and save it
 
