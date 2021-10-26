@@ -58,7 +58,7 @@ Using the search bar on top type Templates
 
 - Select the newly added template and click deploy
 
-![alt image](https://github.com/DavidArayaSanabria/AVDLandingZone/blob/8bd3fb167da7f7c76eb01954d73f1ce6948a9a41/Select%20and%20deploy%20template.png?raw=true)
+![alt image](https://github.com/kamaddal/Managed-Synapse_deployment/blob/main/deploy.PNG?raw=true)
 
 - Fill out the blanks with your details and click purchase
 
