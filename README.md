@@ -16,7 +16,7 @@ Synapse uses a managed VNET / Subnet and exposes private endpoints in customersâ
 
 - Infrastructure Architect
 - Data Engineers
-- Data Architect
+- Data Architects
 
 # Synapase Architecture deployed on Private Endpoints
 ![alt image](https://github.com/kamaddal/Managed-Synapse_deployment/blob/main/azure-synapse-detailed-diagram.png?raw=true)
